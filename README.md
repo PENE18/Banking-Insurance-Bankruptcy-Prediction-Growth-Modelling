@@ -1,6 +1,8 @@
 
-**PROJECT REPORT\\
-• Problem Motivation:\\
+**PROJECT REPORT
+
+• Problem Motivation:
+
 Banks and such other financial lending institutions often need to look at a loan applicant’s credit history, economic status and such other factors to determine eligibility for loan, but the relationship between these factors is generally not well-defined and is most likely heuristic in nature. It is very often the case also that the company’s current standing, such as its rise or fall in the immediate past is taken into consideration to determine its financial stability. This might lead to erroneous judgement with regards to the company’s likelihood of defaulting on a loan. Using effective classification and time series analyses, we can generate a model that would not only be more precise but also cost-effective in solving this problem. With this objective, we shall analyze the data, augment it with data from other sets and try to understand the static factors that correlate most highly with a company’s financial standing by way of creating a classification strategy and analyzing the steps taken by the model.
 • Target and Predictor Variables:
 A total of 42 features were used in order to determine the target in the final classifier, which itself was a compounded variable obtained from the output of the SVM classifier and the ARIMA Time Series Analysis.
